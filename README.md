@@ -27,6 +27,13 @@ gpu_mem=128
 dtparam=i2c_vc=on
 ```
 
+After boot check whether camera modules are detected by ivport stereo cm or no with **vcgencmd get_camera** command.
+
+```shell
+root@ivport:~/ivport-v2 $ vcgencmd get_camera
+supported=2 detected=2
+```
+
 Example Video and Photo
 ---
 
