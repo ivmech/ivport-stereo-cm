@@ -7,5 +7,8 @@ Ivport Stereo CM is breakout board that you can plug a Raspberry Pi Compute Modu
 
 Raspberry Pi Compute Module, camera modules, camera ribbon cables, and power cable are needed.
 
+More information at [Wiki](https://github.com/ivmech/ivport-stereo-cm/wiki).
+
+
 Getting Started
 ---
