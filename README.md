@@ -47,4 +47,4 @@ camera.capture('sbs_photo.jpg')
 Demo
 ---
 
-[![Ivport Stereo CM Video](http://img.youtube.com/vi/e6cvI44fX18/0.jpg)](http://www.youtube.com/watch?v=e6cvI44fX18 "Ivport Stereo CM")
+[![Ivport Stereo CM Video](https://raw.githubusercontent.com/ivmech/ivport-stereo-cm/master/images/youtube_thumbnail_01.jpg)](http://www.youtube.com/watch?v=e6cvI44fX18 "Ivport Stereo CM")
