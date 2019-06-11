@@ -21,7 +21,7 @@ Copy precompiled **dt-blob.bin** binary file in first FAT partition of the micro
 
 >The Raspberry Pi uses a configuration file instead of the BIOS you would expect to find on a conventional PC. The system configuration parameters, which would traditionally be edited and stored using a BIOS, are stored instead in an optional text file named config.txt.
 
-Add config values to the end of the **config.txt** file
+Add config values to the end of the **config.txt** file.
 
 ```
 start_x=1
