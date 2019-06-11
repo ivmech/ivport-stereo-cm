@@ -5,8 +5,6 @@ Ivport Stereo CM is breakout board that you can plug a Raspberry Pi Compute Modu
 
 ![alt ivport stereo cm](https://raw.githubusercontent.com/ivmech/ivport-stereo-cm/master/images/ivport_scm_03.jpg)
 
-### [Example Youtube Video](https://www.youtube.com/watch?v=e6cvI44fX18)
-
 Raspberry Pi Compute Module, camera modules, camera ribbon cables, and power cable are needed.
 
 ### More information at [Wiki](https://github.com/ivmech/ivport-stereo-cm/wiki).
@@ -28,3 +26,25 @@ start_x=1
 gpu_mem=128
 dtparam=i2c_vc=on
 ```
+
+Example Video and Photo
+---
+
+```shell
+raspivid -3d sbs -w 1280 -h 480 -o sbs_video.h264
+```
+
+```shell
+raspistill -3d sbs -w 1280 -h 480 -o sbs_photo.jpg
+```
+
+```python
+from picamera import PiCamera
+camera = PiCamera(stereo_mode='side-by-side', resolution=(1280,720))
+camera.capture('sbs_photo.jpg')
+```
+
+Demo
+---
+
+[![Ivport Stereo CM Video](http://img.youtube.com/vi/e6cvI44fX18/0.jpg)](http://www.youtube.com/watch?v=e6cvI44fX18 "Ivport Stereo CM")
