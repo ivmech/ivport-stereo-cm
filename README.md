@@ -15,15 +15,13 @@ Raspberry Pi Compute Module, camera modules, camera ribbon cables, and power cab
 Getting Started
 ---
 
-```
-On a Pi or Compute Module there are several files in the first FAT partition of the SD/eMMC that are binary 'Device Tree' files. These binary files (usually with extension .dtb) are compiled from human readable text descriptions (usually files with extension .dts) by the Device Tree compiler.
-```
+
+>On a Pi or Compute Module there are several files in the first FAT partition of the SD/eMMC that are binary 'Device Tree' files. These binary files (usually with extension .dtb) are compiled from human readable text descriptions (usually files with extension .dts) by the Device Tree compiler.
+
 
 Copy precompiled **dt-blob.bin** binary file in first FAT partition of the microSD card.
 
-```
-The Raspberry Pi uses a configuration file instead of the BIOS you would expect to find on a conventional PC. The system configuration parameters, which would traditionally be edited and stored using a BIOS, are stored instead in an optional text file named config.txt.
-```
+>The Raspberry Pi uses a configuration file instead of the BIOS you would expect to find on a conventional PC. The system configuration parameters, which would traditionally be edited and stored using a BIOS, are stored instead in an optional text file named config.txt.
 
 Add config values to the end of the **config.txt** file
 
