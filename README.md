@@ -7,6 +7,17 @@ IVPORT Stereo Compute Module
 
 Raspberry Pi Compute Module, camera modules, camera ribbon cables, and power cable are needed.
 
+- Compatible Camera Modules
+  - Raspberry Pi Camera Module V1.3 (OV5647 sensor)
+  - Raspberry Pi Camera Module V2 (Sony IMX 219 sensor)
+
+- Compatible Compute Modules
+  - Raspberry Pi CM1
+  - Raspberry Pi CM3 (eMMC equipped)
+  - Raspberry Pi CM3 Lite
+  - Raspberry Pi CM3+ (eMMC equipped)
+  - Raspberry Pi CM3+ Lite
+
 ### More information at [Wiki](https://github.com/ivmech/ivport-stereo-cm/wiki).
 
 
