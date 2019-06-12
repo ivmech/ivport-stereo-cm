@@ -20,6 +20,8 @@ Raspberry Pi Compute Module, camera modules, camera ribbon cables, and power cab
 
 ### More information at [Wiki](https://github.com/ivmech/ivport-stereo-cm/wiki).
 
+### Can be ordered from [Here](https://www.ivmech.com/magaza/ivport-scm-p-119).
+
 
 Getting Started
 ---
